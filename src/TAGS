@@ -1,0 +1,16 @@
+
+c:/Users/Mortomes/wyah/wyah/src/NanoParsec.hs,254
+module NanoParsec NanoParsec0,1
+newtype Parser Parser6,7
+newtype Parser a = Parser Parser6,7
+newtype Parser a = Parser { parse parse6,7
+runParser runParser8,9
+runParser runParser9,10
+item item14,15
+item item15,16
+instance instance20,21
+
+c:/Users/Mortomes/wyah/wyah/src/Main.hs,52
+module Main Main0,1
+main main2,3
+main main3,4
