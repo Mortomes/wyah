@@ -1,0 +1,140 @@
+
+c:/Users/jvdberg/wyah/wyah/untyedlambda/src\syntax.hs,202
+module Syntax Syntax0,1
+data ExprExpr3,4
+  = Var Var4,5
+  | App App5,6
+  | Lam Lam6,7
+  | Lit Lit7,8
+data Lit Lit10,11
+data Lit = LInt LInt10,11
+data Lit = LInt Int | LBool LBool10,11
+
+c:/Users/jvdberg/wyah/wyah/untyedlambda/src\pretty.hs,313
+class Pretty Pretty8,9
+class Pretty Pretty8,9
+  ppr ppr9,10
+  pp pp11,12
+  pp pp12,13
+viewVars viewVars15,16
+viewVars viewVars16,17
+viewBody viewBody19,20
+viewBody viewBody20,21
+parensIf parensIf23,24
+parensIf parensIf24,25
+instance instance27,28
+ppexpr ppexpr38,39
+ppexpr ppexpr39,40
+
+c:/Users/jvdberg/wyah/wyah/untyedlambda/src\parser.hs,624
+module Parser Parser0,1
+lexer lexer12,13
+lexer lexer13,14
+reserved reserved20,21
+reserved reserved21,22
+reservedOp reservedOp23,24
+reservedOp reservedOp24,25
+identifier identifier26,27
+identifier identifier27,28
+parens parens29,30
+parens parens30,31
+contents contents32,33
+contents contents33,34
+natural natural39,40
+natural natural40,41
+variable variable42,43
+variable variable43,44
+number number47,48
+number number48,49
+lambda lambda52,53
+lambda lambda53,54
+term term60,61
+term term61,62
+expr expr66,67
+expr expr67,68
+parseExpr parseExpr71,72
+parseExpr parseExpr72,73
+
+c:/Users/jvdberg/wyah/wyah/untyedlambda/src\Main.hs,227
+module Main Main0,1
+showStep showStep11,12
+showStep showStep12,13
+process process14,15
+process process15,16
+main main24,25
+main main25,26
+s, k, i i39,40
+s, k,k39,40
+s,s39,40
+i i40,41
+k k41,42
+s s42,43
+
+c:/Users/jvdberg/wyah/wyah/untyedlambda/src\Eval.hs,702
+data Value Value8,9
+data Value = VInt VInt8,9
+data Value = VInt Integer | VBool VBool8,9
+data Value = VInt Integer | VBool Bool | VClosure VClosure8,9
+instance instance10,11
+data EvalState EvalState15,16
+data EvalState = EvalState EvalState15,16
+data EvalState = EvalState { depth depth15,16
+inc inc17,18
+inc inc18,19
+red red24,25
+red red25,26
+type Step Step30,31
+--WriterT --WriterT31,32
+type Eval Eval33,34
+type Eval a a33,34
+type Scope Scope35,36
+eval eval37,38
+eval eval38,39
+extend extend60,61
+extend extend61,62
+apply apply63,64
+apply apply64,65
+emptyScope emptyScope68,69
+emptyScope emptyScope69,70
+runEval runEval72,73
+runEval runEval73,74
+
+c:/Users/jvdberg/wyah/wyah/untyedlambda/Setup.hs,15
+main main1,2
+
+c:/Users/jvdberg/wyah/wyah/untyedlambda/dist\build\autogen\Paths_untyedlambda.hs,1116
+module Paths_untyedlambda Paths_untyedlambda4,5
+catchIO catchIO20,21
+catchIO catchIO22,23
+catchIO catchIO26,27
+catchIO catchIO28,29
+version version30,31
+version version31,32
+prefix, bindirrel bindirrel32,33
+prefix,prefix32,33
+prefix prefix33,34
+bindirrel bindirrel34,35
+getBinDir getBinDir36,37
+getBinDir getBinDir37,38
+getLibDir getLibDir39,40
+getLibDir getLibDir40,41
+getDataDir getDataDir42,43
+getDataDir getDataDir43,44
+getLibexecDir getLibexecDir45,46
+getLibexecDir getLibexecDir46,47
+getSysconfDir getSysconfDir48,49
+getSysconfDir getSysconfDir49,50
+getDataFileName getDataFileName51,52
+getDataFileName getDataFileName52,53
+getPrefixDirRel getPrefixDirRel56,57
+getPrefixDirRel getPrefixDirRel57,58
+minusFileName minusFileName72,73
+minusFileName minusFileName73,74
+joinFileName joinFileName78,79
+joinFileName joinFileName79,80
+splitFileName splitFileName86,87
+splitFileName splitFileName87,88
+pathSeparator pathSeparator100,101
+pathSeparator pathSeparator101,102
+isPathSeparator isPathSeparator103,104
+isPathSeparator isPathSeparator104,105

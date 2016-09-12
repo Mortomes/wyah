@@ -30,18 +30,18 @@ executable wyah
                      , directory
                      , process
                      , parsec
-                     , happy
-                     , alex
+                     --, happy
+                     --, alex
                      , pretty
                      , ansi-wl-pprint
                      , pretty-show
 --                     , graphscc
-                     , graphSCC
+                    -- , graphSCC
                      , haskeline
                      , repline
                      , cereal
                      , deepseq
-                     , uniqueid
+                    -- , uniqueid
                      , uniplate
                      , optparse-applicative
                      , hoopl

@@ -1,0 +1,143 @@
+
+c:/Users/jvdberg/wyah/wyah/src\untypedlambda\syntax.hs,222
+module Syntax Syntax0,1
+type Name Name2,3
+data ExprExpr3,4
+  = Var Var4,5
+  | App App5,6
+  | Lam Lam6,7
+  | Lit Lit7,8
+data Lit Lit10,11
+data Lit = LInt LInt10,11
+data Lit = LInt Int | LBool LBool10,11
+
+c:/Users/jvdberg/wyah/wyah/src\untypedlambda\lambdacalc.hs,316
+class Pretty Pretty9,10
+class Pretty Pretty9,10
+  ppr ppr10,11
+  pp pp12,13
+  pp pp13,14
+viewVars viewVars16,17
+viewVars viewVars17,18
+viewBody viewBody20,21
+viewBody viewBody21,22
+parensIf parensIf24,25
+parensIf parensIf25,26
+instance instance28,29
+ppexpr ppexpr43,44
+ppexpr ppexpr44,45
+
+c:/Users/jvdberg/wyah/wyah/src\peanogrammar.hs,80
+module PeanoGrammar PeanoGrammar0,1
+langDef langDef6,7
+langDef langDef7,8
+
+c:/Users/jvdberg/wyah/wyah/src\NanoParsec.hs,813
+module NanoParsec NanoParsec0,1
+newtype Parser Parser7,8
+newtype Parser a = Parser Parser7,8
+newtype Parser a = Parser { parse parse7,8
+runParser runParser9,10
+runParser runParser10,11
+instance instance16,17
+item item45,46
+item item46,47
+satisfy satisfy51,52
+satisfy satisfy52,53
+oneOf oneOf56,57
+oneOf oneOf57,58
+chainl chainl59,60
+chainl chainl60,61
+chainl' chainl'62,63
+p `chainl'`chainl'63,64
+char char72,73
+char char73,74
+natural natural75,76
+natural natural76,77
+string string78,79
+string string79,80
+token token85,86
+token token86,87
+reserved reserved91,92
+reserved reserved92,93
+spaces spaces94,95
+spaces spaces95,96
+digit digit97,98
+digit digit98,99
+number number100,101
+number number101,102
+parens parens106,107
+parens parens107,108
+
+c:/Users/jvdberg/wyah/wyah/src\Main.hs,52
+module Main Main0,1
+main main4,5
+main main5,6
+
+c:/Users/jvdberg/wyah/wyah/src\calcgrammar.hs,498
+module CalculatorGrammar CalculatorGrammar0,1
+data ExprExpr6,7
+  = Add Add7,8
+  | Mul Mul8,9
+  | Sub Sub9,10
+  | Lit Lit10,11
+eval eval12,13
+eval eval13,14
+int int18,19
+int int19,20
+expr expr23,24
+expr expr24,25
+term term26,27
+term term27,28
+factor factor29,30
+factor factor30,31
+infixOp infixOp32,33
+infixOp infixOp33,34
+addop addop35,36
+addop addop36,37
+mulop mulop38,39
+mulop mulop39,40
+run run41,42
+run run42,43
+main main44,45
+main main45,46
+
+c:/Users/jvdberg/wyah/wyah/Setup.hs,15
+main main1,2
+
+c:/Users/jvdberg/wyah/wyah/dist\build\autogen\Paths_wyah.hs,1100
+module Paths_wyah Paths_wyah4,5
+catchIO catchIO20,21
+catchIO catchIO22,23
+catchIO catchIO26,27
+catchIO catchIO28,29
+version version30,31
+version version31,32
+prefix, bindirrel bindirrel32,33
+prefix,prefix32,33
+prefix prefix33,34
+bindirrel bindirrel34,35
+getBinDir getBinDir36,37
+getBinDir getBinDir37,38
+getLibDir getLibDir39,40
+getLibDir getLibDir40,41
+getDataDir getDataDir42,43
+getDataDir getDataDir43,44
+getLibexecDir getLibexecDir45,46
+getLibexecDir getLibexecDir46,47
+getSysconfDir getSysconfDir48,49
+getSysconfDir getSysconfDir49,50
+getDataFileName getDataFileName51,52
+getDataFileName getDataFileName52,53
+getPrefixDirRel getPrefixDirRel56,57
+getPrefixDirRel getPrefixDirRel57,58
+minusFileName minusFileName72,73
+minusFileName minusFileName73,74
+joinFileName joinFileName78,79
+joinFileName joinFileName79,80
+splitFileName splitFileName86,87
+splitFileName splitFileName87,88
+pathSeparator pathSeparator100,101
+pathSeparator pathSeparator101,102
+isPathSeparator isPathSeparator103,104
+isPathSeparator isPathSeparator104,105
